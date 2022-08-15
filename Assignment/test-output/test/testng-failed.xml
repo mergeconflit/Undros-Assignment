@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="test-undros(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.RCRM.tests.undrosTest">
+        <methods>
+          <include name="Recharge"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.RCRM.tests.undrosTest -->
+    </classes>
+  </test> <!-- test-undros(failed) -->
+</suite> <!-- Failed suite [test] -->
